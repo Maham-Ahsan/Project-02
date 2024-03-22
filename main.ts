@@ -3,6 +3,7 @@
 import inquirer from "inquirer";
 
 import chalk from "chalk";
+import { log } from "console";
 
 // computer will Generate a Random Number
 
@@ -11,6 +12,7 @@ import chalk from "chalk";
 // Compare user input with computer generated number
 
 const randomNumber = Math.floor(Math.random() *10 +1);
+console.log("Welcome to the Number Guessing Game");
 
 const answers = await inquirer.prompt ([
     {

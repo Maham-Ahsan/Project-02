@@ -5,6 +5,7 @@ import chalk from "chalk";
 // Use input for Guessing Number
 // Compare user input with computer generated number
 const randomNumber = Math.floor(Math.random() * 10 + 1);
+console.log("Welcome to the Number Guessing Game");
 const answers = await inquirer.prompt([
     {
         name: "userGuessnumber",
